@@ -69,7 +69,6 @@ package groovy.transform
  * <p>
  * A class created using {@code @Canonical} has the following characteristics:
  * <ul>
- * <li>A no-arg constructor is provided which allows you to set properties by name using Groovy's normal bean conventions.
  * <li>Tuple-style constructors are provided which allow you to set properties in the same order as they are defined.
  * <li>Default {@code equals}, {@code hashCode} and {@code toString} methods are provided based on the property values.
  * See the GroovyDoc for the individual annotations for more details.
